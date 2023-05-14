@@ -3,9 +3,7 @@
 string subtraction(int a, int b) {
 	string c;
 	if (a - b >= 0) {
-		c = "POSITIVE";
+		return "POSITIVE";
 	}
-	else c = "NEGATIVE";
-
-	return c;
+	else return "NEGATIVE";
 }
